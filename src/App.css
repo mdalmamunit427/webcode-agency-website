@@ -1,0 +1,18 @@
+@keyframes  scroll {
+    0%{
+ transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.animate-scroll{
+    display: inline-flex;
+    animation: scroll 15s linear infinite;
+}
+
+.section-container{
+    @apply max-w-screen-2xl container mx-auto py-20 px-5;
+}
